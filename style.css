@@ -3,5 +3,40 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: orange;
 }
+
+table {
+	width: 100%;
+	table-layout: auto; 
+  }
+
+td a {
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: whitesmoke;
+	vertical-align: middle;
+  }
+
+p {
+direction: rtl;
+width: 100%;
+}
+
+h1 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+figcaption {
+margin-top: 5px; 
+background-color: rgb(255, 228, 179);
+}
+
+td {
+	padding: 5px; 
+	text-align: center; 
+	vertical-align: middle;
+  }
