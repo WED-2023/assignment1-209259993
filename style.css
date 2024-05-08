@@ -17,7 +17,7 @@ td a {
 	text-align: center;
 	color: whitesmoke;
 	vertical-align: middle;
-  }
+}
 
 p {
 direction: rtl;
@@ -39,4 +39,10 @@ td {
 	padding: 5px; 
 	text-align: center; 
 	vertical-align: middle;
+  }
+
+.video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
   }

@@ -29,7 +29,6 @@
 הוא הנהיג את מדינת ישראל כראש הממשלה וכשר הביטחון במשך עשור וחצי עד 1963 (מלבד פסק זמן בן כשנתיים, בשנים 1953–1955). כראש הממשלה הראשון היה אחראי במידה רבה על עיצוב דמותה הדמוקרטית של ישראל, על אופי יחסי הגומלין בין מגזרים שונים בחברה הישראלית, ועל עיצוב מנגנוני הביצוע של רבים ממשרדי הממשלה. במהלך כהונתו נחתם הסכם השילומים עם גרמניה המערבית, נערכה מלחמת סיני, הוקם הכור הגרעיני בדימונה, ונקלטו מאות אלפי עולים. לאחר התפטרותו מראשות הממשלה ופרישתו ממפא"י, הקים ב־1965 את רשימת פועלי ישראל (רפ"י). ב־1970 פרש מהחיים הפוליטיים.</p>
 <br/>
 <br/>
-<br/>
 </section>
 
 <section id="photos" class="section">
@@ -70,28 +69,15 @@
 </table>
 <br/>
 <br/>
-<br/>
 </section>
 
 <section id="playlist" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
+<h1><b>My Playlist</b></h1>
+<div class="video-container">
+  <iframe width="1000" height="500" src="https://www.youtube.com/embed/Y-C45iFeirU?si=Mi02CNXSo-Q6SG0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 <br/>
 <br/>
 </section>
@@ -99,22 +85,10 @@ my playlist
 <section id="like" class="section">
 <br/>
 <br/>
+<h1><b>Give Me a Like</b></h1>
+Likes: <span id="counter">0</span>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
+<div class="fb-like" data-href="https://wed-2023.github.io/assignment1-209259993/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
 <br/>
 <br/>
 </section>
@@ -189,6 +163,8 @@ contact me
 </section>
 
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v19.0&appId=1432308544332714" nonce="yE8VKG6Q"></script>
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
@@ -202,5 +178,21 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+
+  <script>
+    // Function to increase the counter
+    function increaseCounter() {
+    var currentCount = parseInt(localStorage.getItem("counter")) || 0;
+    currentCount++;
+    localStorage.setItem("counter", currentCount);
+    document.getElementById("counter").innerText = currentCount;
+    }
+
+    // function to load counter
+    window.onload = function() {
+    var currentCount = parseInt(localStorage.getItem("counter")) || 0;
+    document.getElementById("counter").innerText = currentCount;
+    };
+  </script>
 </body>
 </html>
