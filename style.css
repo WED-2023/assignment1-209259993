@@ -1,8 +1,8 @@
 #menu {
     position: fixed;
     width: 100%;
-    height: 45px;
-    background: orange;
+    height: 50px;
+    background: #ffa500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,14 +12,14 @@
 #menu a {
     color: white;
     font-weight: bold;
-    padding: 10px 20px;
-    transition: background 0.3s ease;
+    padding: 10px 15px;
+    transition: 0.3s ease;
 }
 
 #menu a:hover {
-    background: rgb(255, 228, 179);
+    background: white;
 	color: orange;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 table {
@@ -41,23 +41,23 @@ td a {
 	transition: opacity 0.3s ease;
 }
 
-#photos img:hover {
+#photos img:hover, #qrcoder img:hover {
     opacity: 0.7;
 }
 
 #photos figcaption {
-    width: 100%;
+	width: 100%;
     text-align: center; 
 }
 
 p {
 direction: rtl;
 width: 100%;
+font-size:18px;
 }
 
 figcaption {
 margin-top: 5px; 
-background-color: rgb(255, 228, 179);
 }
 
 td {
@@ -110,3 +110,7 @@ body {
 #like-button:hover {
     background-color: rgb(255, 186, 58);
 }
+
+.logo {
+    border: 2px solid orange; 
+  }
