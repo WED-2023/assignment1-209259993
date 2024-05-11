@@ -111,7 +111,7 @@ body {
 	margin-right: 10px;
 }
 
-#like-button {
+#like-button, #submit-button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 15px;
@@ -124,10 +124,31 @@ body {
     transition: background-color 0.3s ease;
 }
 
-#like-button:hover {
+#like-button:hover, #submit-button:hover {
     background-color: rgb(255, 186, 58);
 }
 
 .logo {
     border: 2px solid orange; 
+  }
+
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
   }
