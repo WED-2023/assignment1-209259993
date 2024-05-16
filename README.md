@@ -3,6 +3,6 @@ This repository contains the files for a web page I made for my grandfather for 
 ## Information
 - **ID** - 209259993
 - **URL** - https://wed-2023.github.io/assignment1-209259993
-- **About** - My dear grandfather passed away in 2017 from cancer. I decided to dedicate the side for his honor.
+- **About** - My dear grandfather, Jacques Zenou, passed away in August 2017 from prostate cancer. I decided to dedicate the side for his honor.
    
   
