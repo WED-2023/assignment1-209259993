@@ -1,1 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/GmyrjvXu)
+# **WED Assignment 1**
+This repository contains the files for a web page I made for my grandfather for WED course at Ben Gurion University.
+## Information
+- **ID** - 209259993
+- **URL** - https://wed-2023.github.io/assignment1-209259993
+- **About** - My dear grandfather passed away in 2017 from cancer. I decided to dedicate the side for his honor.
+   
+  
