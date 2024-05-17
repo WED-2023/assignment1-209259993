@@ -40,6 +40,7 @@ td a {
     max-width: 100%;
     height: 200px;
 	transition: opacity 0.3s ease;
+    border: 1px solid orange;
 }
 
 #photos img:hover, #qrcoder img:hover {
@@ -53,6 +54,7 @@ h1:hover {
 #photos figcaption {
 	width: 100%;
     text-align: center; 
+    font-stretch: semi-condensed;
 }
 
 p {
@@ -170,3 +172,4 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(to bottom, #ff7300, #fdcb91);
   }
+
