@@ -11,14 +11,14 @@
 }
 
 #menu a {
-    color: white;
+    color: #ffe5bd;
     font-weight: bold;
     padding: 10px 15px;
     transition: 0.3s ease;
 }
 
 #menu a:hover {
-    background: white;
+    background: #ffe5bd;
 	color: orange;
     border-radius: 20px;
 }
@@ -85,6 +85,8 @@ h1 {
     grid-gap: 20px;
     grid-template-columns: 1fr max-content 1fr;
     grid-template-rows: 25px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 1px #ffe5bd;
 }
     
 h1:after,h1:before {
@@ -101,6 +103,7 @@ h1:after,h1:before {
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
 	font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #ffe5bd, #ffffff);
 }
 
 .section {
@@ -132,6 +135,7 @@ body {
     border: 2px solid orange; 
   }
 
+  /*contact form*/
   form {
     max-width: 300px;
     margin: 0 auto;
@@ -151,4 +155,18 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+  }
+
+  /* scroll bar*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #fdcb91, #ff7300);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #ff7300, #fdcb91);
   }
